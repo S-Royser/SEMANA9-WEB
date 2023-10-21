@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    border: 0;
+}
+
+body {
+    background-color:rgb(192, 95, 31);
+}
+
+#contenedor {
+    width: 95%;
+    margin-top: 20px ;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    background-color: beige;
+}
+
+header h1 {
+    padding: 20px;
+    text-align: center;
+    color:  coral;
+}
+
+header img {
+    box-sizing: content-box;
+    width: 100%;
+    vertical-align: bottom;
+}
+
+nav {
+    background-color: yellow;
+}
+
+nav a {
+    padding: 12px;
+    display: inline-block;
+    text-decoration: none;
+    color: red;
+}
+
+main {
+    display: flex;
+}
+
+aside {
+    box-sizing: content-box;
+    width: 25%;
+    padding: 20px;
+    background-color: beige;
+}
+
+aside h2 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 0px;
+    padding-left: 0px;
+    color: blue;
+}
+
+aside ul {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-right: 20px;
+    padding-left: 20px;    
+}
+
+
+aside ol {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-right: 20px;
+    padding-left: 20px;    
+}
+
+aside ol li {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-right: 0px;
+    padding-left: 0px;    
+}
+
+aside p {
+    text-align: justify;
+}
+
+aside img {
+    box-sizing: content-box;
+    width: 40%;
+    margin-top: 20px ;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+
+section {
+    box-sizing: content-box;
+    width: 50%;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: white;
+}
+
+section figure {
+
+    box-sizing: content-box;
+    width: 50%;
+    margin-top: 10px;
+    margin-bottom: 50px;
+
+}
+
+section figure img {
+    box-sizing: content-box;
+    width: 90%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+section figure figcaption {
+    text-align: center;
+    color: green;
+}
+
+footer {
+    padding: 10px;
+    background-color: green;
+    text-align: center;
+}
+
+footer p{
+    margin-bottom: 10px;
+    color: white;
+}
